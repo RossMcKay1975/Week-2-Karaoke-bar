@@ -8,7 +8,7 @@ class TestRoom < MiniTest::Test
     @room = ("Paul McCartney Suite")
   end
 
-def test_add_song_to_room
+def test_room_name
   assert_equal("Paul McCartney Suite", @room)
 end
 
