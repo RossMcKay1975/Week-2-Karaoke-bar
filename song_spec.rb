@@ -7,7 +7,7 @@ class SongTest < MiniTest::Test
   def setup
     @song = Song.new("Beetles","Hapiness Is a Warm Gun")
     @song2 = Song.new("Beetles","Back in the USSR")
-    # @song3 = ("Beetles", "Sargent Peppers Lonely Hearts Club band")
+    @song3 = Song.new("Beetles", "Sargent Peppers Lonely Hearts Club band")
   end
 
   def test_song_has_artist
@@ -22,6 +22,6 @@ class SongTest < MiniTest::Test
     assert_equal("Back in the USSR", @song2.title())
   end
 
-
+  
 
 end

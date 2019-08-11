@@ -31,7 +31,7 @@ class Karaoke_barTest < MiniTest::Test
   # end
 
 
-  def test_book_2_customers_into_room_and_check_1_customer_out_of_room
+  def test_book_2_customers_in_check_1_customer_out
     @karaoke_bar.add_customer(@customer1)
     @karaoke_bar.add_customer(@customer2)
     @karaoke_bar.remove_customer(@customer1)
